@@ -17,7 +17,7 @@ print("-" * 50)
 try:
 
     #will scan ports between 1-1025
-    for port in range(1,1025)
+    for port in range(1,1025):
         skt = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
         socket.setdefaulttimeout(1)
 
